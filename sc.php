@@ -114,7 +114,7 @@ foreach($data["data"] as $item) {
         
         $ch = curl_init();
         curl_setopt_array($ch, [
-            CURLOPT_URL => "your webhook url",
+            CURLOPT_URL => "https://discord.com/api/webhooks/908003085912248331/vH0_OPAGQz1c77tqn_QSzH3V0pqWrjMcTia_PHd02uArHyVKhWvtaUagnQ4H_J7RzxPU",
             CURLOPT_POST => true,
             CURLOPT_POSTFIELDS => $hookObject,
             CURLOPT_HTTPHEADER => [
